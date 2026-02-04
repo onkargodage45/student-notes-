@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Notes | Onkar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f4f6;
+            color: #111827;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4f46e5, #22c55e);
+            color: white;
+            padding: 30px 15px;
+            text-align: center;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .navbar a {
+            margin: 10px;
+            text-decoration: none;
+            color: #1f2937;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 30px 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .badges span {
+            display: inline-block;
+            padding: 8px 12px;
+            border-radius: 999px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .badge-c { background: #e0f2fe; }
+        .badge-m { background: #dcfce7; }
+        .badge-e { background: #fef3c7; }
+        .badge-w { background: #ede9fe; }
+
+        .cards .card {
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            margin: 10px 0;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        .downloads a {
+            display: block;
+            margin: 8px 0;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Student Notes</h1>
+        <p>Simple, Free Notes for Computer Engineering</p>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Home -->
+    <div id="home" class="section" style="text-align:center;">
+        <h1>Welcome 👋</h1>
+        <p>This website provides simple notes for Computer Engineering students.</p>
+        <div class="badges">
+            <span class="badge-c">C Programming</span>
+            <span class="badge-m">Maths</span>
+            <span class="badge-e">Electronics</span>
+            <span class="badge-w">Web Dev</span>
+        </div>
+    </div>
+
+    <!-- Subjects -->
+    <div id="subjects" class="section">
+        <h2 style="text-align:center;">Subjects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>📘 C Programming</h3>
+                <p>Basics, loops, functions, arrays, pointers.</p>
+            </div>
+            <div class="card">
+                <h3>📗 Mathematics</h3>
+                <p>Engineering maths formulas and solved examples.</p>
+            </div>
+            <div class="card">
+                <h3>📙 Basic Electronics</h3>
+                <p>Circuits, diodes, transistors, basics.</p>
+            </div>
+            <div class="card">
+                <h3>🌐 Web Development</h3>
+                <p>HTML, CSS, JavaScript basics.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Downloads -->
+    <div id="downloads" class="section downloads">
+        <h2 style="text-align:center;">Downloads</h2>
+        <a href="#">📥 C Programming Notes (PDF)</a>
+        <a href="#">📥 Maths Notes (PDF)</a>
+        <a href="#">📥 Electronics Notes (PDF)</a>
+        <a href="#">📥 Web Dev Notes (PDF)</a>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="section" style="text-align:center;font-size:16px;">
+        <h2>Contact</h2>
+        <p>Name: Onkar</p>
+        <p>Email: onkar@example.com</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2026 Student Notes Website | Made by Onkar</p>
+    </div>
+
+</body>
+</html>
